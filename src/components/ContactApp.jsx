@@ -33,7 +33,7 @@ const ContactApp = () => {
 		}
 
   return (
-    <div className='mx-3 vh-100'>
+    <div className='mx-3 min-vh-100'>
       <header className='d-flex justify-content-between pt-2'>
         <p className='fs-3 text-primary mt-1 ' onClick={handleClickCerrarSesion}>cerrar sesion</p>
         {/* <p className='fs-3 mt-1'>{currentUser}</p> */}

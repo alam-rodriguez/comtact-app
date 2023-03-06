@@ -125,7 +125,7 @@ const EditContatc = () => {
 			<div className='d-flex flex-column justify-content-center w-100 mt-2' onClick={()=>document.querySelector('.input-file').click()}>
 				{ img ? 
                     <>
-                        <img className='img-fluid rounded-circle mx-auto' src={img} style={{height:130, width:130}} />
+                        <img className='img-fluid rounded-circle mx-auto' src={img} style={{width: 130, height:130, objectFit:'cover', objectPosition:'center'}} />
                         <p className='text-primary text-center'>Cambiar imagen</p>
                     </>
                 :   

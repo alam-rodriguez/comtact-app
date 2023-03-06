@@ -45,7 +45,7 @@ const ContactSelected = () => {
 
       <div className='d-flex flex-column justify-content-center'>
         { img ? 
-          <img className='m-auto rounded-circle' src={img} style={{width: 130, height:130}} />
+          <img className='m-auto rounded-circle' src={img} style={{width: 130, height:130, objectFit:'cover', objectPosition:'center'}} />
         : 
           <img className='m-auto' src={imgPerfil} style={{width: 130}} />
         }
